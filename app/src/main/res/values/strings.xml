@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">DopplerEffekt</string>
     <string name="xena">Xena ist dumm</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="hello">Hello</string>
+    <string name="hello">Hallo, hier kannst du die Frequenzänderung durch den Dopplereffekt berechnen!</string>
+    <string name="eingabeFrequenz">Bitte gebe die Frequenz in Hertz an</string>
+    <string name="eingabeGeschwindigkeit">"Bitte gebe die Geschwindigkeit in km/h an"</string>
+    <string name="berechnen">Berechnen!</string>
 </resources>
