@@ -6,7 +6,8 @@
         <entry key="..\:/Users/sinah/Desktop/DopplerEffekt/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22" />
         <entry key="..\:/Users/sinah/Desktop/DopplerEffekt/app/src/main/res/layout/activity_main.xml" value="0.335" />
         <entry key="..\:/Users/sinah/Desktop/DopplerEffekt/app/src/main/res/layout/fragment_play.xml" value="0.2164855072463768" />
-        <entry key="..\:/Users/sinah/Desktop/DopplerEffekt/app/src/main/res/layout/fragment_welcome.xml" value="0.2164855072463768" />
+        <entry key="..\:/Users/sinah/Desktop/DopplerEffekt/app/src/main/res/layout/fragment_result.xml" value="0.2164855072463768" />
+        <entry key="..\:/Users/sinah/Desktop/DopplerEffekt/app/src/main/res/layout/fragment_welcome.xml" value="0.1" />
       </map>
     </option>
   </component>
