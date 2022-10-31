@@ -6,4 +6,17 @@
     <string name="eingabeFrequenz">Bitte gebe die Frequenz in Hertz an</string>
     <string name="eingabeGeschwindigkeit">"Bitte gebe die Geschwindigkeit in km/h an"</string>
     <string name="berechnen">Berechnen!</string>
+    <string name="info1">So funktioniert es:</string>
+    <string name="info2">Gebe oben die Frequenz des Objektes welches auf dich zukommt ein und unten
+        dessen Geschwindigkeit. Klicke danach auf den "berechnen" Button, um das Ergebnis zu sehen.
+        Über das Menü kommst du auf die jetzige Übersicht aller Informationen zur Doppler-Effekt-App
+        und auf eine weitere Übersicht in der alle gespeicherten Ergebnisse aufgelistet sindDort
+        kannst du alle Details jeder Rechnung sehen und einzelne Rechnungen aus der Datenbank
+        löschen.</string>
+    <string name="info3">Der Doppler-Effekt beschreibt die Änderung der Frequenz einer Welle und
+        zwar abhängig vom Bewegungszustand ihres Senders und/oder Empfängers.</string>
+    <string name="info4">Im speziell beschäftigt sich diese App mit dem akustischen
+        Doppler-Effekt</string>
+    <string name="infoMenu">Info</string>
+    <string name="verlaufMenu">Verlauf</string>
 </resources>

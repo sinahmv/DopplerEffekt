@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/welcomeFragment2">
+
+    <fragment
+        android:id="@+id/welcomeFragment2"
+        android:name="de.sinah.dopplereffelt.WelcomeFragment"
+        android:label="Willkommen"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/toResultFragment"
+            app:destination="@id/resultFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment2"
+        android:name="de.sinah.dopplereffelt.ResultFragment"
+        android:label="Ergebnis"
+        tools:layout="@layout/fragment_result"/>
+    <fragment
+        android:id="@+id/databaseFragment"
+        android:name="de.sinah.dopplereffelt.DatabaseFragment"
+        android:label="Verlauf"
+        tools:layout="@layout/fragment_database" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="de.sinah.dopplereffelt.InfoFragment"
+        android:label="Informationen"
+        tools:layout="@layout/fragment_info" />
+</navigation>
