@@ -31,7 +31,9 @@
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/eingabeGeschwindigkeit"
-            android:inputType="number" />
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
 
         <Button
             android:id="@+id/bestaetigung"

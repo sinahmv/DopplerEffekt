@@ -19,4 +19,6 @@
         Doppler-Effekt</string>
     <string name="infoMenu">Info</string>
     <string name="verlaufMenu">Verlauf</string>
+    <string name="ergebnis">Die Veränderung des Schalls beträgt:</string>
+    <string name="weiter">Weiter</string>
 </resources>
