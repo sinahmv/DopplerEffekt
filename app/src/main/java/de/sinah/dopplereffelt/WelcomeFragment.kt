@@ -31,11 +31,15 @@ class WelcomeFragment : Fragment() {
             MainActivityViewModel::class.java)
 
         binding.bestaetigung.setOnClickListener {
-            view: View -> view.findNavController().navigate(R.id.toResultFragment)
-            mainActivityViewModel.frequency = binding.eingabeWert1.text.toString().toDouble()
-            mainActivityViewModel.speed = binding.eingabeWert2.text.toString().toDouble()
-            mainActivityViewModel.result = 0.0
+            var frequency = binding.eingabeWert1.text.toString().toDouble()
+            var speed = binding.eingabeWert2.text.toString().toDouble()
+            var result = 0.0
+            //Hier Logik einfügen
+            mainActivityViewModel.frequency = frequency
+            mainActivityViewModel.speed = speed
+            mainActivityViewModel.result = result
             mainActivityViewModel.insert()
+            it.findNavController().navigate(WelcomeFragmentDirections.toResultFragment(frequency.toFloat(), speed.toFloat(), result.toFloat()))
         }
 
         setHasOptionsMenu(true)

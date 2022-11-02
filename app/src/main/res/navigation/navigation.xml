@@ -18,7 +18,17 @@
         android:id="@+id/resultFragment2"
         android:name="de.sinah.dopplereffelt.ResultFragment"
         android:label="Ergebnis"
-        tools:layout="@layout/fragment_result"/>
+        tools:layout="@layout/fragment_result">
+        <argument
+            android:name="frequency"
+            app:argType="float" />
+        <argument
+            android:name="speed"
+            app:argType="float" />
+        <argument
+            android:name="result"
+            app:argType="float" />
+    </fragment>
     <fragment
         android:id="@+id/databaseFragment"
         android:name="de.sinah.dopplereffelt.DatabaseFragment"

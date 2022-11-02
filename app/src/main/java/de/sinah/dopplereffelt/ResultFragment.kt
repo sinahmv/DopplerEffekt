@@ -17,6 +17,11 @@ class ResultFragment : Fragment() {
 
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_result, container, false)
 
+        val args = ResultFragmentArgs.fromBundle(requireArguments())
+        val speed = args.speed.toString()
+        val frequency = args.frequency.toString()
+        val result = args.result.toString()
+
         return binding.root
     }
 }
