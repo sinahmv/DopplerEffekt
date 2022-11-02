@@ -22,17 +22,17 @@ class WelcomeFragment : Fragment() {
             view: View -> view.findNavController().navigate(R.id.toResultFragment)
         }
 
-        //setHasOptionsMenu(true)
+        setHasOptionsMenu(true)
 
         return binding.root
     }
 
-    /*override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
         inflater.inflate(R.menu.options_menu, menu)
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return NavigationUI.onNavDestinationSelected(item, requireView().findNavController())
-    }*/
+    }
 
 }
