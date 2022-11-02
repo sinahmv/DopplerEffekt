@@ -9,29 +9,12 @@
     tools:context=".MainActivity">
 
     <fragment
-        android:id="@+id/dhHostFragment"
+        android:id="@+id/HostFragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:navGraph="@navigation/navigation"
         app:defaultNavHost="true" />
 
-    <fragment
-        android:id="@+id/welcomeFragment"
-        android:name="de.sinah.dopplereffelt.WelcomeFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
-    <fragment
-        android:id="@+id/resultFragment"
-        android:name="de.sinah.dopplereffelt.ResultFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
-    <fragment
-        android:id="@+id/infoFragment2"
-        android:name="de.sinah.dopplereffelt.InfoFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
 
 </LinearLayout>

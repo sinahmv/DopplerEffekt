@@ -19,16 +19,17 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_main)
 
-        val navController = this.findNavController(R.id.dhHostFragment)
+        val navController = this.findNavController(R.id.HostFragment)
         NavigationUI.setupActionBarWithNavController(this, navController)
 
-        findViewById<Button>(R.id.bestaetigung).setOnClickListener {
+        /*findViewById<Button>(R.id.bestaetigung).setOnClickListener {
             showNumbsResult(it)
         }
+        */
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        val navController = this.findNavController(R.id.dhHostFragment)
+        val navController = this.findNavController(R.id.HostFragment)
         return navController.navigateUp()
     }
 

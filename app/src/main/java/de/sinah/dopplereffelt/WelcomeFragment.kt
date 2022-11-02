@@ -35,4 +35,5 @@ class WelcomeFragment : Fragment() {
         return NavigationUI.onNavDestinationSelected(item, requireView().findNavController())
     }
 
+
 }
