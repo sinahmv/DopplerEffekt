@@ -34,8 +34,20 @@ class WelcomeFragment : Fragment() {
             var frequency = binding.eingabeWert1.text.toString().toDouble()
             var speed = binding.eingabeWert2.text.toString().toDouble()
             var result = 0.0
+            var error = ""
 
             //Hier Logik einfügen
+
+            if (frequency.toString() == ".") {
+                error = "Ungültige Eingabe Frequenz"
+            }
+            if (speed.toString() == ".") {
+                error = "Ungültige Eingabe Geschwindigkeit"
+            }
+            if (frequency.toString() == "." && speed.toString() == ".") {
+                error = "Ungültige Eingabe Frequenz und Geschwindigkeit"
+            }
+
             result = frequency / (1 - (speed / 343))
 
             mainActivityViewModel.frequency = frequency

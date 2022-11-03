@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".WelcomeFragment">
 
@@ -24,7 +25,8 @@
             android:hint="@string/eingabeFrequenz"
             android:inputType="number|numberDecimal"
             android:minHeight="48dp"
-            android:textColorHint="#757575" />
+            android:textColorHint="#757575"
+            android:textColorLink="#0B5741" />
 
         <EditText
             android:id="@+id/eingabeWert2"
@@ -35,7 +37,8 @@
             android:hint="@string/eingabeGeschwindigkeit"
             android:inputType="number|numberDecimal"
             android:minHeight="48dp"
-            android:textColorHint="#757575" />
+            android:textColorHint="#757575"
+            android:textColorLink="#0B5741" />
 
         <Button
             android:id="@+id/bestaetigung"
@@ -44,6 +47,13 @@
             android:layout_height="wrap_content"
             android:text="@string/berechnen"
             android:onClick="clickHandlerFunction" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/logo"
+            android:src="@mipmap/ic_banner_foreground" />
 
     </LinearLayout>
 
