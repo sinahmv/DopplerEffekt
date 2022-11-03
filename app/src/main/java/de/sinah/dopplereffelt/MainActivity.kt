@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp()
     }
 
-    private fun showNumbsResult(view: View) {
+    /*private fun showNumbsResult(view: View) {
         //Get elements
         val editText = findViewById<EditText>(R.id.eingabeWert1)
         val editText2 = findViewById<EditText>(R.id.eingabeWert2)
@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         //Set text
         setText.text = editText.text
         setText2.text = editText2.text
-    }
+    }*/
 
 }
 

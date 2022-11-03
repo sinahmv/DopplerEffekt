@@ -1,12 +1,12 @@
 package de.sinah.dopplereffelt
 
 import android.os.Bundle
+import android.view.*
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import android.widget.EditText
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.findNavController
+import androidx.navigation.ui.NavigationUI
 import de.sinah.dopplereffelt.databinding.FragmentResultBinding
 
 class ResultFragment : Fragment() {
@@ -22,6 +22,17 @@ class ResultFragment : Fragment() {
         val frequency = args.frequency.toString()
         val result = args.result.toString()
 
+        setHasOptionsMenu(true)
+
         return binding.root
     }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        super.onCreateOptionsMenu(menu, inflater)
+        inflater.inflate(R.menu.options_menu, menu)
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return NavigationUI.onNavDestinationSelected(item, requireView().findNavController())
+    }
+
 }

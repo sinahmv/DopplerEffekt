@@ -3,8 +3,8 @@
     <string name="xena">Xena ist dumm</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello">Hallo, hier kannst du die Frequenzänderung durch den Dopplereffekt berechnen!</string>
-    <string name="eingabeFrequenz">Bitte gebe die Frequenz in Hertz an</string>
-    <string name="eingabeGeschwindigkeit">"Bitte gebe die Geschwindigkeit in km/h an"</string>
+    <string name="eingabeFrequenz">Bitte gib die Frequenz in Hertz an</string>
+    <string name="eingabeGeschwindigkeit">"Bitte gib die Geschwindigkeit in m/s an"</string>
     <string name="berechnen">Berechnen!</string>
     <string name="info1">So funktioniert es:</string>
     <string name="info2">Gebe oben die Frequenz des Objektes welches auf dich zukommt ein und unten
