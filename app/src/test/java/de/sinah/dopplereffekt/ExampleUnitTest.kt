@@ -1,4 +1,4 @@
-package de.sinah.dopplereffelt
+package de.sinah.dopplereffekt
 
 import org.junit.Test
 

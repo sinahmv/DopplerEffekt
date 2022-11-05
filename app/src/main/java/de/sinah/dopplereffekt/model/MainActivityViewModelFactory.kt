@@ -1,8 +1,8 @@
-package de.sinah.dopplereffelt.model
+package de.sinah.dopplereffekt.model
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import de.sinah.dopplereffelt.database.DopplerRepository
+import de.sinah.dopplereffekt.database.DopplerRepository
 
 class MainActivityViewModelFactory(
     private val dopplerRepository: DopplerRepository

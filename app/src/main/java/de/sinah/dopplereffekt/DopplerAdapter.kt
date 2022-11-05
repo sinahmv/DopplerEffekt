@@ -1,14 +1,13 @@
-package de.sinah.dopplereffelt
+package de.sinah.dopplereffekt
 
 import android.view.LayoutInflater
-import android.view.OnReceiveContentListener
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import de.sinah.dopplereffelt.database.Doppler
-import de.sinah.dopplereffelt.databinding.DopplerItemViewBinding
+import de.sinah.dopplereffekt.database.Doppler
+import de.sinah.dopplereffekt.databinding.DopplerItemViewBinding
 
 class DopplerAdapter(
     private val listener: (Doppler) -> Unit

@@ -1,4 +1,4 @@
-package de.sinah.dopplereffelt.database
+package de.sinah.dopplereffekt.database
 
 import android.content.Context
 import androidx.room.Database

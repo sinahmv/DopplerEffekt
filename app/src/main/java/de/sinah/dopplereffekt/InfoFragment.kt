@@ -1,4 +1,4 @@
-package de.sinah.dopplereffelt
+package de.sinah.dopplereffekt
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import de.sinah.dopplereffelt.databinding.FragmentInfoBinding
+import de.sinah.dopplereffekt.databinding.FragmentInfoBinding
 
 class InfoFragment : Fragment() {
 

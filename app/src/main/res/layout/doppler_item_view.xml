@@ -5,11 +5,11 @@
 
         <variable
             name="dopplerEntity"
-            type="de.sinah.dopplereffelt.database.Doppler" />
+            type="de.sinah.dopplereffekt.database.Doppler" />
 
         <variable
             name="viewModel"
-            type="de.sinah.dopplereffelt.model.MainActivityViewModel" />
+            type="de.sinah.dopplereffekt.model.MainActivityViewModel" />
     </data>
 
     <LinearLayout

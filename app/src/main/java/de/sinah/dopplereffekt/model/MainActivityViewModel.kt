@@ -1,9 +1,9 @@
-package de.sinah.dopplereffelt.model
+package de.sinah.dopplereffekt.model
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import de.sinah.dopplereffelt.database.Doppler
-import de.sinah.dopplereffelt.database.DopplerRepository
+import de.sinah.dopplereffekt.database.Doppler
+import de.sinah.dopplereffekt.database.DopplerRepository
 import kotlinx.coroutines.launch
 
 class MainActivityViewModel(
