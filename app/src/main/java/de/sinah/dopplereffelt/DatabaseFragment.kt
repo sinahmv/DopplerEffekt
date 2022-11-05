@@ -42,6 +42,8 @@ class DatabaseFragment : Fragment() {
 
         mainActivityViewModel.doppler.observe(viewLifecycleOwner, Observer{adapter.submitList(it)})
 
+        binding.deleteAll.setOnClickListener { mainActivityViewModel.deleteAll() }
+
         return binding.root
     }
 }
