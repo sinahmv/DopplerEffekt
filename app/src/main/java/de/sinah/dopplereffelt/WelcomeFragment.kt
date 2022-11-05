@@ -13,6 +13,7 @@ import de.sinah.dopplereffelt.database.DopplerRepository
 import de.sinah.dopplereffelt.databinding.FragmentWelcomeBinding
 import de.sinah.dopplereffelt.model.MainActivityViewModel
 import de.sinah.dopplereffelt.model.MainActivityViewModelFactory
+import kotlin.math.roundToInt
 
 
 class WelcomeFragment : Fragment() {
@@ -48,7 +49,7 @@ class WelcomeFragment : Fragment() {
                 error = "Ungültige Eingabe Frequenz und Geschwindigkeit"
             }
 
-            result = frequency / (1 - (speed / 343))
+            result = roundto5digits(frequency / (1 - (speed / 343)))
 
             mainActivityViewModel.frequency = frequency
             mainActivityViewModel.speed = speed
@@ -60,6 +61,16 @@ class WelcomeFragment : Fragment() {
         setHasOptionsMenu(true)
 
         return binding.root
+    }
+
+    fun roundto5digits(insertvalue : Double):Double{
+        val insertvalue = insertvalue
+
+        var rounded :Double = (insertvalue * 10000).roundToInt().toDouble()
+        rounded = rounded / 10000.0
+
+        return rounded
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {

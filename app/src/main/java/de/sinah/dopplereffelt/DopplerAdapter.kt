@@ -3,6 +3,7 @@ package de.sinah.dopplereffelt
 import android.view.LayoutInflater
 import android.view.OnReceiveContentListener
 import android.view.ViewGroup
+import android.widget.Button
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -12,7 +13,7 @@ import de.sinah.dopplereffelt.databinding.DopplerItemViewBinding
 class DopplerAdapter(
     private val listener: (Doppler) -> Unit
 ) : ListAdapter<Doppler, DopplerAdapter.ViewHolder>(DopplerDiffCallback()) {
-    class ViewHolder constructor(val binding: DopplerItemViewBinding) : //WIEDERVERWENDBAR FÜR PRÜFUNG
+    class ViewHolder constructor(val binding: DopplerItemViewBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(item: Doppler) {
             binding.dopplerEntity = item
@@ -28,6 +29,7 @@ class DopplerAdapter(
         }
     }
 
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         return from(parent)
     }
@@ -36,7 +38,7 @@ class DopplerAdapter(
         val item = getItem(position)
         holder.bind(item)
 
-        holder.itemView.setOnClickListener { listener(item) }
+        holder.itemView.findViewById<Button>(R.id.deleteOne).setOnClickListener{listener(item)}
     }
 }
 
