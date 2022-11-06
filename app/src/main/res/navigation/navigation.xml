@@ -28,6 +28,9 @@
         <argument
             android:name="result"
             app:argType="float" />
+        <action
+            android:id="@+id/backToWelcome"
+            app:destination="@id/welcomeFragment2" />
     </fragment>
     <fragment
         android:id="@+id/databaseFragment"

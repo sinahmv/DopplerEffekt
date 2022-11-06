@@ -2,7 +2,6 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
-
         <variable
             name="dopplerEntity"
             type="de.sinah.dopplereffelt.database.Doppler" />
@@ -114,7 +113,7 @@
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="hz"
+                    android:text=" hz"
                     android:textSize="30dp" />
 
 

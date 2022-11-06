@@ -21,7 +21,15 @@ class ResultFragment : Fragment() {
         val frequency = args.frequency.toString()
         val result = args.result.toString()
 
+        binding.speedField.text = args.speed.toString()
+        binding.frequencyField.text = args.frequency.toString()
+        binding.resultField.text = args.result.toString()
+
         setHasOptionsMenu(true)
+
+        binding.newDoppler.setOnClickListener{
+            it.findNavController().navigate(ResultFragmentDirections.backToWelcome())
+        }
 
         return binding.root
     }
