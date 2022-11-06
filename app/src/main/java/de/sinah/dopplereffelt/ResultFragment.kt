@@ -1,4 +1,4 @@
-package de.sinah.dopplereffekt
+package de.sinah.dopplereffelt
 
 import android.os.Bundle
 import android.view.*
@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
-import de.sinah.dopplereffekt.databinding.FragmentResultBinding
+import de.sinah.dopplereffelt.databinding.FragmentResultBinding
 
 class ResultFragment : Fragment() {
 

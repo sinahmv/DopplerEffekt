@@ -1,4 +1,4 @@
-package de.sinah.dopplereffekt
+package de.sinah.dopplereffelt
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,11 +9,11 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import de.sinah.dopplereffekt.database.DopplerDatabase
-import de.sinah.dopplereffekt.database.DopplerRepository
-import de.sinah.dopplereffekt.databinding.FragmentDatabaseBinding
-import de.sinah.dopplereffekt.model.MainActivityViewModel
-import de.sinah.dopplereffekt.model.MainActivityViewModelFactory
+import de.sinah.dopplereffelt.database.DopplerDatabase
+import de.sinah.dopplereffelt.database.DopplerRepository
+import de.sinah.dopplereffelt.databinding.FragmentDatabaseBinding
+import de.sinah.dopplereffelt.model.MainActivityViewModel
+import de.sinah.dopplereffelt.model.MainActivityViewModelFactory
 
 class DatabaseFragment : Fragment() {
 

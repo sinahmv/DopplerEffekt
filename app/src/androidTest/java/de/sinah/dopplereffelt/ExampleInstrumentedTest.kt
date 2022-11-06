@@ -1,4 +1,4 @@
-package de.sinah.dopplereffekt
+package de.sinah.dopplereffelt
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

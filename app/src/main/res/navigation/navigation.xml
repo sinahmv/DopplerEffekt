@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/welcomeFragment2"
-        android:name="de.sinah.dopplereffekt.WelcomeFragment"
+        android:name="de.sinah.dopplereffelt.WelcomeFragment"
         android:label="Willkommen"
         tools:layout="@layout/fragment_welcome">
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/resultFragment2"
-        android:name="de.sinah.dopplereffekt.ResultFragment"
+        android:name="de.sinah.dopplereffelt.ResultFragment"
         android:label="Ergebnis"
         tools:layout="@layout/fragment_result">
         <argument
@@ -31,12 +31,12 @@
     </fragment>
     <fragment
         android:id="@+id/databaseFragment"
-        android:name="de.sinah.dopplereffekt.DatabaseFragment"
+        android:name="de.sinah.dopplereffelt.DatabaseFragment"
         android:label="Verlauf"
         tools:layout="@layout/fragment_database" />
     <fragment
         android:id="@+id/infoFragment"
-        android:name="de.sinah.dopplereffekt.InfoFragment"
+        android:name="de.sinah.dopplereffelt.InfoFragment"
         android:label="Informationen"
         tools:layout="@layout/fragment_info" />
 </navigation>

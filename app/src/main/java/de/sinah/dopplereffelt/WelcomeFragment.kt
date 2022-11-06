@@ -1,4 +1,4 @@
-package de.sinah.dopplereffekt
+package de.sinah.dopplereffelt
 
 import android.os.Bundle
 import android.view.*
@@ -7,11 +7,11 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
-import de.sinah.dopplereffekt.database.DopplerDatabase
-import de.sinah.dopplereffekt.database.DopplerRepository
-import de.sinah.dopplereffekt.databinding.FragmentWelcomeBinding
-import de.sinah.dopplereffekt.model.MainActivityViewModel
-import de.sinah.dopplereffekt.model.MainActivityViewModelFactory
+import de.sinah.dopplereffelt.database.DopplerDatabase
+import de.sinah.dopplereffelt.database.DopplerRepository
+import de.sinah.dopplereffelt.databinding.FragmentWelcomeBinding
+import de.sinah.dopplereffelt.model.MainActivityViewModel
+import de.sinah.dopplereffelt.model.MainActivityViewModelFactory
 import kotlin.math.roundToInt
 
 

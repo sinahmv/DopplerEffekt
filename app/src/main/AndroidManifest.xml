@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="de.sinah.dopplereffekt">
+    package="de.sinah.dopplereffelt">
 
     <application
         android:allowBackup="true"
@@ -14,7 +14,7 @@
         android:theme="@style/Theme.DopplerEffelt"
         tools:targetApi="31">
         <activity
-            android:name="de.sinah.dopplereffekt.MainActivity"
+            android:name="de.sinah.dopplereffelt.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,4 +1,4 @@
-package de.sinah.dopplereffekt
+package de.sinah.dopplereffelt
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
