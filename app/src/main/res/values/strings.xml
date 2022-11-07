@@ -1,32 +1,63 @@
 <resources>
+
     <string name="app_name">DopplerEffekt</string>
-    <string name="hello">Hallo! Hier kannst du die Frequenz berechnen, die durch den Dopplereffekt beim Empänger ankommt!</string>
+
+    <string name="hello">Hallo! Hier kannst du die Frequenz berechnen, die durch den Dopplereffekt beim Empfänger ankommt!</string>
+
     <string name="eingabeFrequenz">Bitte gib die Frequenz in Hertz an</string>
+
     <string name="eingabeGeschwindigkeit">"Bitte gib die Geschwindigkeit in m/s an"</string>
+
     <string name="berechnen">Berechnen!</string>
+
     <string name="info1">So funktioniert es:</string>
+
     <string name="infoMenu">Info</string>
+
     <string name="verlaufMenu">Verlauf</string>
+
     <string name="ergebnis">Die Veränderung des Schalls beträgt: %1$s</string>
+
     <string name="weiter">Weiter</string>
+
     <string name="verlauf">Verlauf</string>
+
     <string name="logo">Logo</string>
+
     <string name="id">ID: </string>
+
     <string name="speed">Speed: </string>
+
     <string name="m_s"> m/s</string>
+
     <string name="frequency">Frequency: </string>
+
     <string name="hz"> hz</string>
+
     <string name="result">Result: </string>
+
     <string name="loeschen">Löschen</string>
+
     <string name="alles_loeschen">Alles löschen!</string>
+
     <string name="blankString" />
+
     <string name="neue_berechnung">Neue Berechnung</string>
+
     <string name="welcomeToTheApp">Willkommmen zu unserer App mit der du die Frequenzänderung durch den Dopplereffekt berechnen kannst.</string>
+
     <string name="howTo">Oben siehst du die Formel die berechnet wird. Die Varibalen Frenquenz und Geschwindigkeit gibst du an!</string>
+
     <string name="sourceOfDoppler">Der Dopplereffekt bezeichnet im Allgemeinen die Stauchung oder auch Dehnung einer Welle. Das können zum Beispiel Schallwellen, wie in unserer App, oder auch Lichtwellen sein.</string>
+
     <string name="movement">Bei der Berechnung ist es wichtig, ob sich der Sender vom Empfänger weg bewegt oder auf ihn zu. Wir berechnen den Fall, dass der Sender sich auf einen ruhenden Empfänger zubewegt.</string>
+
     <string name="senderAndReciever">Verkleinert sich der Abstand vom Sender zum Empfänger so steigt die wahrgenommene Frequenz. Vergrößert sich der Abstand so sinkt die wahrgenommene Frequenz.</string>
+
     <string name="minHz">The minimale Frequenz beträgt 20 Hz</string>
+
     <string name="maxHz">The maximale Frequenz beträgt 20 kHz</string>
+
     <string name="maxPace">The maximale Geschwindigkeit beträgt 1000 m/s</string>
+
 </resources>
