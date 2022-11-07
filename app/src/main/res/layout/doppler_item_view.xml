@@ -29,7 +29,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ID:"
+                    android:text="@string/id"
                     android:textSize="30dp" />
 
                 <TextView
@@ -49,7 +49,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Speed: "
+                    android:text="@string/speed"
                     android:textSize="30dp" />
 
                 <TextView
@@ -60,7 +60,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" m/s"
+                    android:text="@string/m_s"
                     android:textSize="30dp" />
 
 
@@ -73,7 +73,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Frequency: "
+                    android:text="@string/frequency"
                     android:textSize="30dp" />
 
                 <TextView
@@ -85,7 +85,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" hz"
+                    android:text="@string/hz"
                     android:textSize="30dp" />
 
 
@@ -100,7 +100,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Result: "
+                    android:text="@string/result"
                     android:textSize="30dp" />
 
                 <TextView
@@ -113,7 +113,7 @@
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" hz"
+                    android:text="@string/hz"
                     android:textSize="30dp" />
 
 
@@ -124,6 +124,6 @@
             android:id="@+id/deleteOne"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Löschen" />
+            android:text="@string/loeschen" />
     </LinearLayout>
 </layout>

@@ -23,4 +23,14 @@
     <string name="weiter">Weiter</string>
     <string name="verlauf">Verlauf</string>
     <string name="logo">Logo</string>
+    <string name="id">ID:</string>
+    <string name="speed">Speed:</string>
+    <string name="m_s">m/s</string>
+    <string name="frequency">Frequency:</string>
+    <string name="hz">hz</string>
+    <string name="result">Result:</string>
+    <string name="loeschen">Löschen</string>
+    <string name="alles_loeschen">Alles löschen!</string>
+    <string name="blankString" />
+    <string name="neue_berechnung">Neue Berechnung</string>
 </resources>
