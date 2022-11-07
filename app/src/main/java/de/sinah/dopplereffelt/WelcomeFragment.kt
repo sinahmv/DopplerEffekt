@@ -87,49 +87,42 @@ class WelcomeFragment : Fragment() {
     }
 
     fun readFrequency(): Double {
-        val frequencyField = binding.eingabeWert1
+        val frequencyInput = binding.eingabeWert1
         var frequency :Double
 
-        if (frequencyField.text.toString() == "." || frequencyField.text.toString() == "") {
+        try {
+            frequency = frequencyInput.text.toString().toDouble()
+        }catch(e : java.lang.Exception){
             frequency = 0.0
         }
-        if (frequencyField.text.toString().toDouble() < 20.0) {
-            Toast.makeText(
-                context,
-                "Die kleinste hörbare Frequenz ist 20 Hertz",
-                Toast.LENGTH_LONG
-            ).show()
+        if(frequency < 20.0) {
             frequency = 20.0
+            Toast.makeText(context, "The minimale Frequenz beträgt 20 Hz",Toast.LENGTH_LONG).show()
         }
-        if (frequencyField.text.toString().toDouble() > 20000.0) {
-            Toast.makeText(
-                context,
-                "Die größte hörbare Frequenz ist 20.000 Hertz",
-                Toast.LENGTH_LONG
-            ).show()
+        if (frequency > 20000.0){
             frequency = 20000.0
+            Toast.makeText(context, "The maximale Frequenz beträgt 20 kHz",Toast.LENGTH_LONG).show()
         }
-        if(frequency != 0.0 && frequency != 20.0 && frequency != 20000.0 ){
-            frequency = frequencyField.text.toString().toDouble()
         return frequency
     }
     fun readSpeed():Double{
-        val speedField = binding.eingabeWert2
+        val speedInput = binding.eingabeWert2
+        var speed :Double
 
-        if (speedField.text.toString() == "." || speedField.text.toString() == "") {
-            return 0.0
+        try {
+            speed = speedInput.text.toString().toDouble()
+        }catch(e : java.lang.Exception){
+            speed = 0.0
         }
-        if (speedField.text.toString().toDouble() > 1000.0) {
-            Toast.makeText(
-                context,
-                "Die größtmögliche Geschwindigkeit ist 1000 m/s",
-                Toast.LENGTH_LONG
-            ).show()
-            return 20000.0
+        if (speed > 1000.0)
+        {
+            speed = 1000.0
+            Toast.makeText(context, "The maximale Geschwindigkeit beträgt 1000 m/s",Toast.LENGTH_LONG).show()
         }
-            return speedField.text.toString().toDouble()
+        return speed
 
     }
+
 }
 
 
