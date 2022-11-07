@@ -97,11 +97,11 @@ class WelcomeFragment : Fragment() {
         }
         if(frequency < 20.0) {
             frequency = 20.0
-            Toast.makeText(context, "The minimale Frequenz beträgt 20 Hz",Toast.LENGTH_LONG).show()
+            Toast.makeText(context, getString(R.string.minHz),Toast.LENGTH_LONG).show()
         }
         if (frequency > 20000.0){
             frequency = 20000.0
-            Toast.makeText(context, "The maximale Frequenz beträgt 20 kHz",Toast.LENGTH_LONG).show()
+            Toast.makeText(context, getString(R.string.maxHz),Toast.LENGTH_LONG).show()
         }
         return frequency
     }
@@ -117,7 +117,7 @@ class WelcomeFragment : Fragment() {
         if (speed > 1000.0)
         {
             speed = 1000.0
-            Toast.makeText(context, "The maximale Geschwindigkeit beträgt 1000 m/s",Toast.LENGTH_LONG).show()
+            Toast.makeText(context, getString(R.string.maxPace),Toast.LENGTH_LONG).show()
         }
         return speed
 

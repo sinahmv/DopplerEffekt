@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ResultFragment">
 
@@ -24,6 +25,12 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_banner_foreground" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -32,6 +39,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/speed"
+                    android:textColor="#070707"
                     android:textSize="30dp" />
 
                 <TextView
@@ -39,12 +47,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/blankString"
+                    android:textColor="#070707"
                     android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/m_s"
+                    android:textColor="#070707"
                     android:textSize="30dp" />
             </LinearLayout>
 
@@ -56,6 +66,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/frequency"
+                    android:textColor="#070707"
                     android:textSize="30dp" />
 
                 <TextView
@@ -63,12 +74,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/blankString"
+                    android:textColor="#070707"
                     android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/hz"
+                    android:textColor="#070707"
                     android:textSize="30dp" />
             </LinearLayout>
 
@@ -80,6 +93,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/result"
+                    android:textColor="#070707"
                     android:textSize="30dp" />
 
                 <TextView
@@ -87,6 +101,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=""
+                    android:textColor="#070707"
                     android:textSize="30dp" />
 
                 <TextView
@@ -94,6 +109,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/hz"
+                    android:textColor="#070707"
                     android:textSize="30dp" />
 
             </LinearLayout>

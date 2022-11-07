@@ -26,4 +26,7 @@
     <string name="sourceOfDoppler">Der Dopplereffekt bezeichnet im Allgemeinen die Stauchung oder auch Dehnung einer Welle. Das können zum Beispiel Schallwellen, wie in unserer App, oder auch Lichtwellen sein.</string>
     <string name="movement">Bei der Berechnung ist es wichtig, ob sich der Sender vom Empfänger weg bewegt oder auf ihn zu. Wir berechnen den Fall, dass der Sender sich auf einen ruhenden Empfänger zubewegt.</string>
     <string name="senderAndReciever">Verkleinert sich der Abstand vom Sender zum Empfänger so steigt die wahrgenommene Frequenz. Vergrößert sich der Abstand so sinkt die wahrgenommene Frequenz.</string>
+    <string name="minHz">The minimale Frequenz beträgt 20 Hz</string>
+    <string name="maxHz">The maximale Frequenz beträgt 20 kHz</string>
+    <string name="maxPace">The maximale Geschwindigkeit beträgt 1000 m/s</string>
 </resources>
