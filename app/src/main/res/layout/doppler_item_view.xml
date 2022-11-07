@@ -17,9 +17,9 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:orientation="vertical">
 
             <LinearLayout
@@ -30,16 +30,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/id"
-                    android:textColor="#5E35B1"
-                    android:textSize="20dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="@integer/material_motion_duration_long_1"
                     android:text="@{Integer.toString(dopplerEntity.id)}"
-                    android:textColor="#5E35B1"
-                    android:textSize="20dp" />
+                    android:textSize="30dp" />
 
 
             </LinearLayout>
@@ -52,22 +50,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/speed"
-                    android:textColor="#070707"
-                    android:textSize="20dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@{Double.toString(dopplerEntity.speed)}"
-                    android:textColor="#070707"
-                    android:textSize="20dp" />
-
+                    android:textSize="30dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/m_s"
-                    android:textColor="#070707"
-                    android:textSize="20dp" />
+                    android:textSize="30dp" />
 
 
             </LinearLayout>
@@ -80,22 +74,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/frequency"
-                    android:textColor="#070707"
-                    android:textSize="20dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@{Double.toString(dopplerEntity.frequency)}"
-                    android:textColor="#070707"
-                    android:textSize="20dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/hz"
-                    android:textColor="#070707"
-                    android:textSize="20dp" />
+                    android:textSize="30dp" />
+
+
 
 
             </LinearLayout>
@@ -108,28 +101,25 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/result"
-                    android:textColor="#070707"
-                    android:textSize="20dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@{Double.toString(dopplerEntity.result)}"
-                    android:textColor="#070707"
-                    android:textSize="20dp" />
+                    android:textSize="30dp" />
 
                 <TextView
+                    android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="@string/hz"
-                    android:textColor="#070707"
-                    android:textSize="20dp" />
+                    android:textSize="30dp" />
+
 
 
             </LinearLayout>
         </LinearLayout>
-
         <Button
             android:id="@+id/deleteOne"
             android:layout_width="wrap_content"
