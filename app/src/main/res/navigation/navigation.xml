@@ -20,6 +20,9 @@
         android:label="Ergebnis"
         tools:layout="@layout/fragment_result">
         <argument
+            android:name="error"
+            app:argType="string"/>
+        <argument
             android:name="frequency"
             app:argType="float" />
         <argument

@@ -12,6 +12,7 @@ class MainActivityViewModel(
     var frequency = 0.0
     var speed = 0.0
     var result = 0.0
+    var error = ""
     val doppler = repository.allDoppler
 
     fun insert() = viewModelScope.launch { repository.insert(Doppler(0,frequency, speed, result)) }

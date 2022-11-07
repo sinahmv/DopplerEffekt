@@ -40,12 +40,18 @@ class WelcomeFragment : Fragment() {
 
             if (frequency.toString() == ".") {
                 error = "Ungültige Eingabe Frequenz"
+                frequency = 0.0
+                speed = 0.0
             }
             if (speed.toString() == ".") {
                 error = "Ungültige Eingabe Geschwindigkeit"
+                frequency = 0.0
+                speed = 0.0
             }
             if (frequency.toString() == "." && speed.toString() == ".") {
                 error = "Ungültige Eingabe Frequenz und Geschwindigkeit"
+                frequency = 0.0
+                speed = 0.0
             }
 
             result = roundto5digits(frequency / (1 - (speed / 343)))
@@ -53,8 +59,9 @@ class WelcomeFragment : Fragment() {
             mainActivityViewModel.frequency = frequency
             mainActivityViewModel.speed = speed
             mainActivityViewModel.result = result
+            mainActivityViewModel.error = error
             mainActivityViewModel.insert()
-            it.findNavController().navigate(WelcomeFragmentDirections.toResultFragment(frequency.toFloat(), speed.toFloat(), result.toFloat()))
+            it.findNavController().navigate(WelcomeFragmentDirections.toResultFragment(error.toString(), frequency.toFloat(), speed.toFloat(), result.toFloat()))
         }
 
         setHasOptionsMenu(true)
