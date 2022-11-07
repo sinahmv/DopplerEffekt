@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">DopplerEffekt</string>
-    <string name="hello">Hallo, hier kannst du die Frequenzänderung durch den Dopplereffekt berechnen!</string>
+    <string name="hello">Hallo! Hier kannst du die Frequenz berechnen, die durch den Dopplereffekt beim Empänger ankommt!</string>
     <string name="eingabeFrequenz">Bitte gib die Frequenz in Hertz an</string>
     <string name="eingabeGeschwindigkeit">"Bitte gib die Geschwindigkeit in m/s an"</string>
     <string name="berechnen">Berechnen!</string>
@@ -11,11 +11,11 @@
     <string name="weiter">Weiter</string>
     <string name="verlauf">Verlauf</string>
     <string name="logo">Logo</string>
-    <string name="id">ID:</string>
+    <string name="id">ID: </string>
     <string name="speed">Speed: </string>
-    <string name="m_s">m/s</string>
+    <string name="m_s"> m/s</string>
     <string name="frequency">Frequency: </string>
-    <string name="hz">hz</string>
+    <string name="hz"> hz</string>
     <string name="result">Result: </string>
     <string name="loeschen">Löschen</string>
     <string name="alles_loeschen">Alles löschen!</string>
